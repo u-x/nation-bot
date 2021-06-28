@@ -1,0 +1,35 @@
+{
+  "groupid": 1,
+  "immigration": {
+    "enabled": true,
+    "toggle": true,
+    "immigrationoffice": 9000000,
+    "citizen": 3,
+    "failrank": 2,
+    "logchannel": "discord channel id in quotations",
+    "blacklistedgroups": [],
+    "blacklistedusers": [],
+    "agelimit": 0,
+    "un": {
+      "enabled": false,
+      "group": 3948723,
+      "unrank": 4,
+      "reprank": 4
+    }
+  },
+  "ranking": {
+    "enabled": true,
+    "groups": {
+      "main": 934824,
+      "army": 3932494
+    }
+  },
+  "prefix": "prefix here",
+  "whitelistedservers": [
+    
+  ],
+  "whitelistedusers": {
+    
+  },
+  "nation_name": ""
+}
