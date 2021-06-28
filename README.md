@@ -7,7 +7,7 @@ A simple bot to suit your ro-nation's needs. Takes little time to set up.
 The main file that will be used in this guide will be the `config.json`.
 **I am not responsible for any ratelimiting issues within this bot.**
 
-If you need any further assistance, contact Ieo#0001 on discord or open an issue.
+If you need any further assistance, contact `Ieo#0001` on discord or open an issue.
 
 ## Setup
 
@@ -85,4 +85,4 @@ If you are looking for a free project host for this, I recommend Repl.it.
   7. It should be up and running and it should go 24/7.
 
 ## Questions or bugs about this bot?
-If you have spotted any bugs within the bot or have any questions, open an issue on this repository or DM me on discord at Ieo#0001. I may also set this up for you if you so choose and trust me enough. I hope you all enjoy. :D
+If you have spotted any bugs within the bot or have any questions, open an issue on this repository or DM me on discord at `Ieo#0001`. I may also set this up for you if you so choose and trust me enough. I hope you all enjoy. :D
