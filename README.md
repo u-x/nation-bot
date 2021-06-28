@@ -83,3 +83,6 @@ If you are looking for a free project host for this, I recommend Repl.it.
   5. Hit the "Run" button and head to [https://uptimerobot.com](https://uptimerobot.com). Make an account or log in if you have one.
   6. Make a new HTTPS monitor with the URL of `project-name.repl-username.repl.co`. This will also be linked in the top right of your project once you run it for the first time.  The friendly name does not matter. Leave it at a 5 minute check time as repls go offline every 5 minutes.
   7. It should be up and running and it should go 24/7.
+
+## Questions or bugs about this bot?
+If you have spotted any bugs within the bot or have any questions, open an issue on this repository or DM me on discord at Ieo#0001. I may also set this up for you if you so choose and trust me enough. I hope you all enjoy. :D
