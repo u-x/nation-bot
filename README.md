@@ -22,12 +22,18 @@ This is an object consisting of many different parts.
 >- `enabled`: Only set this to true if you would like immigration features enabled in your bot, meaning it will automatically rank anyone who joins to citizen after making sure they meet requirements.
 >- `toggle`: The toggle is there to have immigration inactive/active. This is useful during elections or you just simply want to close the borders. This can also be changed through the bot's commands.
 >- `immigrationoffice`: This is NOT the ID you think it is. I recommend getting this by installing [BTRoblox](https://chrome.google.com/webstore/detail/btroblox-making-roblox-be/hbkpclpemjeibhioopcebchdmohaieln), then going to your group's page, expanding your role list, and right click the rank. Go to the BTRoblox UI and click "Copy role id" as pictured below.
+>
 > ![Right click dialogue](https://i.imgur.com/ZnHnKyD.png)
+> 
 >- `citizenrank` and `failrank`: These are normal rank ids and can be obtained by going into your group's config and looking at the role settings. This can otherwise be obtained using the aforementioned method with BTRoblox, but instead of copying the role id, copy the role **rank**.
 >- `logchannel`: This may be obtained by right clicking the channel you would like the bot to log immigrants into and copying its ID. You must have Discord developer mode on to do this. In your Discord settings, go to Appearance and scroll to the bottom to find this setting.
+>
 > ![Copying channel id](https://i.imgur.com/CBamDYT.png)
+> 
 >- `blacklistedgroups` and `blacklistedusers`: These are optional and will filter out anyone in any groups listed/match the user ID of the blacklist. They use group and user IDs and may be done as pictured below. These are also changeable through the bot's commands.
+>
 > ![Example list](https://i.imgur.com/DqaBXyB.png)
+> 
 >- `agelimit`: Optional. This filters out users younger than a certain amount of days out of your group.
 >- `un`: Optional. This is allowed if you are in a United Nations or any other organization that is mainly recognized and will automatically rank users who have the set rep rank to Foreign Ambassador.
 >>- `enabled`: The toggle. Set this to false if you do not recognize any major organization.
@@ -46,7 +52,9 @@ A prefix if you do not want to use slash commands with your bot.
 
 ### whitelistedservers
 I set up a whitelist for this bot so that no commands are run in a server that the bot is not supposed to be in. An example of this would look like something below. You will need discord developer mode.
+
 ![servers list](https://i.imgur.com/R2Qatgk.png)
+
 
 ### whitelistedusers
 Basically same as whitelistedservers but it does have a twist. Anyone with the 'admin' value will be able to whitelist anyone they want to use the bot, however if you would like to make someone a normal user, use the 'user' value.
@@ -58,7 +66,9 @@ This will be your nation's name. The bot will display its status as `Watching ov
 A bot setup is pretty easy. Head to [Discord's Developer Hub](https://discord.com/developers/applications) and create a new application. Once you have done so, head to the "Bot" tab on the application. Click Build-a-bot and then copy the bot's token. From there you may go to the .env (Environment variables tab for repl users) file and paste the account's token in the TOKEN field. To invite it to your server, go to the "General Information" tab and copy the client ID. Fill in your client id in the following link: https://discord.com/api/oauth2/authorize?client_id=your_application_id_here&permissions=8&scope=bot%20applications.commands
 
 Next, make a new Roblox account and name it whatever you want. Join all of the groups that you have linked with the bot in the config file, and make sure it gets ranking permissions in every one. From there, Inspect (Ctrl+Shift+I) and then go to the "Application" tab. Expand Cookies, and go to the one with hte Roblox URL. Copy the .ROBLOSECURITY, including the warning. Put this in the COOKIE field of the .env file.
+
 ![ctrl+shift+i menu](https://i.imgur.com/wtawQ5N.png)
+
 
 **PLEASE NOTE THAT I DO NOT HAVE ACCESS TO ANY OF THESE ACCOUNTS THAT YOU HAVE PUT HERE. IF YOU DON'T TRUST ME, THEN DON'T USE IT.**
 
