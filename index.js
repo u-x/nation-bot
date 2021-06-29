@@ -22,7 +22,7 @@ const config = require('./config.json')
 module.exports = { config, client, discord, roblox }
 
 client.once('ready', () => {
-  client.user.setActivity(`over ${config.nationname} | ${config.prefix}help`)
+  client.user.setActivity(`over ${config.nation_name} | ${config.prefix}help`, {type: 'WATCHING'})
   new WOKCommands(client, {
     commandsDir: 'cmds',
     testServers: config.whitelistedservers,
