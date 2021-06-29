@@ -71,7 +71,7 @@ module.exports = {
       }
     }
     if (config.immigration.un.enabled == true) {
-      if (await roblox.getRankInGroup(config.immigration.un.group, uID) <= config.immigration.un.unrank) {
+      if (await roblox.getRankInGroup(config.immigration.un.group, uID) >= config.immigration.un.unrank) {
         await roblox.setRank(config.groupid, uID, Number(config.immigration.un.reprank))
         let iEmbed = new discord.MessageEmbed()
           .setTitle('Success')
