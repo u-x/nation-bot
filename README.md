@@ -9,6 +9,13 @@ The main file that will be used in this guide will be the `config.json`.
 
 If you need any further assistance, contact `Ieo#0001` on discord or open an issue.
 
+## Links
+
+- [Setup](https://github.com/justIeo/nation-bot/blob/main/README.md#setup)
+- [Roblox account/discord bot setup](https://github.com/justIeo/nation-bot/blob/main/README.md#roblox-account-and-discord-bot-account-setup)
+- [Hosting method](https://github.com/justIeo/nation-bot/blob/main/README.md#hosting-if-you-cannot-do-this-on-your-pc)
+- [Questions/concerns](https://github.com/justIeo/nation-bot/blob/main/README.md#questions-or-bugs-about-this-bot)
+
 ## Setup
 
 In this guide I will go through each part of the config file. Most is self explanatory but there are a couple confusing parts.
