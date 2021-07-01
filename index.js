@@ -1,5 +1,5 @@
 const express = require('express')
-require('dotenv')
+require('dotenv').config()
 const app = express()
 const port = 8000
 
