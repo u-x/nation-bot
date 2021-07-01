@@ -55,6 +55,7 @@ module.exports = {
       .setTitle(`Success`)
       .setDescription(`${realname} has been ranked to ${await roblox.getRole(Number(gID), Number(rankid)).get('name')} in ${groupObj.name}.`)
       .setColor('GREEN')
+      .setThumbnail(`https://www.roblox.com/headshot-thumbnail/image?userId=${uID}&width=420&height=420&format=png`)
       .setTimestamp()
     if (message) {
       message.lineReply(iEmbed)
