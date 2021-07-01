@@ -1,0 +1,21 @@
+{
+  "name": "nation-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord-reply": "^0.1.2",
+    "discord.js": "^12.5.3",
+    "express": "^4.17.1",
+    "noblox.js": "^4.8.5",
+    "wokcommands": "^1.3.6",
+    "dotenv": "^10.0.0"
+  }
+}
