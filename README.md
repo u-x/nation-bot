@@ -14,6 +14,7 @@ If you need any further assistance, contact `Ieo#0001` on discord or open an iss
 - [Setup](https://github.com/justIeo/nation-bot/blob/main/README.md#setup)
 - [Roblox account/discord bot setup](https://github.com/justIeo/nation-bot/blob/main/README.md#roblox-account-and-discord-bot-account-setup)
 - [Hosting method](https://github.com/justIeo/nation-bot/blob/main/README.md#hosting-if-you-cannot-do-this-on-your-pc)
+- [Fix 429 TooMany Requests Error](https://github.com/justIeo/nation-bot/blob/main/README.md#fix-ratelimit)
 - [Questions/concerns](https://github.com/justIeo/nation-bot/blob/main/README.md#questions-or-bugs-about-this-bot)
 
 ## Setup
@@ -90,6 +91,7 @@ If you are looking for a free project host for this, I recommend Repl.it.
   5. Hit the "Run" button and head to [https://uptimerobot.com](https://uptimerobot.com). Make an account or log in if you have one.
   6. Make a new HTTPS monitor with the URL of `project-name.repl-username.repl.co`. This will also be linked in the top right of your project once you run it for the first time.  The friendly name does not matter. Leave it at a 5 minute check time as repls go offline every 5 minutes.
   7. It should be up and running and it should go 24/7.
+  8. If you get the '429 TooMany Requests' error after a while of running, please read [this](https://github.com/justIeo/nation-bot/blob/main/README.md#fix-ratelimit).
 
 ## Fix ratelimit
 Are you getting ratelimited too often? No worries! It's a very simple fix. In the index.js file on line 124, there is a number (defaulted at 1000). This is the amount of milliseconds that the immigration office gets checked, meaning it gets checked every second. Change it to something like 5000 to fix it.
@@ -98,3 +100,5 @@ Are you getting ratelimited too often? No worries! It's a very simple fix. In th
 
 ## Questions or bugs about this bot?
 If you have spotted any bugs within the bot or have any questions, open an issue on this repository or DM me on discord at `Ieo#0001`. I may also set this up for you if you so choose and trust me enough. I hope you all enjoy. :D
+
+[To top](https://github.com/justIeo/nation-bot/blob/main/README.md#nation-bot)
