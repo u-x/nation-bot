@@ -7,7 +7,7 @@ A simple bot to suit your ro-nation's needs. Takes little time to set up.
 The main file that will be used in this guide will be the `config.json`.
 **I am not responsible for any ratelimiting issues within this bot.**
 
-If you need any further assistance, contact `Ieo#0001` on discord or open an issue.
+If you need any further assistance, contact [Ieo#2006](https://discord.com/user/754141987166486628) ([754141987166486628](https://discord.com/users/754141987166486628)) on discord or open an issue.
 
 ## Links
 
