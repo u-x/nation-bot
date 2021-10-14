@@ -99,6 +99,6 @@ Are you getting ratelimited too often? No worries! It's a very simple fix. In th
 ![ratelimit fix](https://i.imgur.com/6ihhHI9.png)
 
 ## Questions or bugs about this bot?
-If you have spotted any bugs within the bot or have any questions, open an issue on this repository or DM me on discord at `Ieo#0001`. I may also set this up for you if you so choose and trust me enough. I hope you all enjoy. :D
+If you have spotted any bugs within the bot or have any questions, open an issue on this repository or DM me on discord at [Ieo#2006](https://discord.com/user/754141987166486628) ([754141987166486628](https://discord.com/users/754141987166486628)). I may also set this up for you if you so choose and trust me enough. I hope you all enjoy. :D
 
 [To top](https://github.com/justIeo/nation-bot#nation-bot)
