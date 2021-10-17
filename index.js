@@ -85,8 +85,13 @@ setInterval(async () => {
       }
       const player = await roblox.getPlayerInfo(immigrants[i].userId)
       if (player.age <= config.immigration.agelimit) {
-        await roblox.setRank(config.groupid, immigrants[i].userId, config.immigration.failrank)
-          client.channels.cache.get('818755081520021535').send(`**${immigrants[i].username}** (${immigrants[i].userId}) is underage and has been detained.`)
+          await roblox.setRank(config.groupid, immigrants[i].userId, config.immigration.failrank)
+          let iEmbed = new discord.MessageEmbed()
+            .setTitle('Fail')
+            .setColor('RED')
+            .setDescription(`${immigrants[i].username} is underage and has been detained.`)
+            .setThumbnail(`https://www.roblox.com/headshot-thumbnail/image?userId=${immigrants[i].userId}&width=420&height=420&format=png`)
+          client.channels.cache.get(config.immigration.logchannel).send(iEmbed)
           return
       }
       if (config.immigration.un.enabled == true) {
