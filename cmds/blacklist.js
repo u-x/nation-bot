@@ -25,7 +25,7 @@ module.exports = {
     let [guid, arid, gu] = args
     if (guid.toLowerCase() == 'groups') {
       if (arid.toLowerCase() == 'add') {
-        if (config.immigration.blacklistedgroups.find(element => element == uID)) {
+        if (config.immigration.blacklistedgroups.find(element => element == usera)) {
           if (message) {
             message.lineReply('This group is already on the blacklist.')
           }
