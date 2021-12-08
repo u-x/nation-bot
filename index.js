@@ -107,7 +107,9 @@ setInterval(async () => {
         }
       }
       if (failedcheck == true) {
-        await roblox.setRank(config.groupid, immigrants[i].userId, Number(config.immigration.failrank))
+        await roblox.setRank(config.groupid, immigrants[i].userId, Number(config.immigration.failrank)).catch(err => {
+          console.log(err)
+        })
         let iEmbed = new discord.MessageEmbed()
           .setTitle('Fail')
           .setColor('RED')
@@ -116,7 +118,9 @@ setInterval(async () => {
         client.channels.cache.get(config.immigration.logchannel).send(iEmbed)
         return
       } else {
-        await roblox.setRank(config.groupid, immigrants[i].userId, Number(config.immigration.citizen))
+        await roblox.setRank(config.groupid, immigrants[i].userId, Number(config.immigration.citizen)).catch(err => {
+          console.log(err)
+        })
         let iEmbed = new discord.MessageEmbed()
           .setTitle('Success')
           .setColor('GREEN')
