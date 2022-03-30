@@ -1,6 +1,6 @@
 # nation-bot
 
-##A QUICK NOTE
+## A QUICK NOTE
 
 This repository will no longer be worked on per my discretion, and I may make a new one, I may not. Leaving this doggy community anyways lol
 
