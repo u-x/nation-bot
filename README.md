@@ -1,5 +1,9 @@
 # nation-bot
 
+##A QUICK NOTE
+
+This repository will no longer be worked on per my discretion, and I may make a new one, I may not. Leaving this doggy community anyways lol
+
 A simple bot to suit your ro-nation's needs. Takes little time to set up.
 
 **THIS DOES REQUIRE NODE.JS IF YOU ARE RUNNING IT ON YOUR MAIN COMPUTER! https://nodejs.org/en/**
